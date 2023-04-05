@@ -1,0 +1,53 @@
+@charset "UTF-8";
+body {
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    background-color: darkgoldenrod;
+    color: brown
+}
+h2 {
+    color: darkblue;
+    background-color: lightblue;
+}
+p {
+    text-align: justify;
+}
+
+.coutener
+{
+   height: 100vh;
+   width: 100%;
+   display: flex;
+flex-direction: column;
+border: solid 100px;
+}
+
+.bloco {
+    margin:  10px;
+    height: 100vh;
+    width: 100%;
+    border: solid red;
+
+}
+.bloco1 {
+margin: 10px;
+height: 100vh;
+width: 100%;
+border: solid red;
+}
+.blovo2 {
+margin:  10px;
+height: 100vh;
+width: 100%;
+border: solid red;
+}
+.bloco3 {
+    margin:  10px;
+height: 100vh;
+width: 100%;
+border: solid red;
+}

@@ -1,0 +1,38 @@
+*{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+ padding: 10px;
+}
+
+body {
+    background-image: linear-gradient(to right, #ab4bde, #1e91ed);
+
+}
+
+main {
+    width: 600px;
+    margin: auto;
+    background-color: white
+    
+}
+
+.botao {
+    background-color:  whitesmoke;
+    border-radius: 5px;
+    width: 17%;
+    background-color: #1e91ed;
+    color: white;
+
+}
+
+a {
+    font-weight: bolder;
+    color: rgb(62, 230, 62);
+}
+h1 {
+    color: rgb(62, 230, 62);
+background-color: rgb(167, 161, 161);
+border: 3em;    
+}
