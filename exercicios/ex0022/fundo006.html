@@ -11,19 +11,31 @@
         <h1>Teste de Imagem de Fundo</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro mollitia ducimus dolor, repudiandae natus eaque ut atque? Sequi cumque soluta, similique fuga voluptas dolor ducimus nesciunt obcaecati ab tempora, aspernatur quos nemo exercitationem quis quae consequatur veritatis, quia distinctio beatae minus magni ipsum natus excepturi. Quod earum ipsam cum consectetur odit eius illo saepe tenetur voluptatibus ut modi temporibus sit impedit id eligendi praesentium, laboriosam tempore amet quidem quibusdam quisquam error dolore? Veniam laborum nostrum qui magnam id, a modi optio accusamus quam ullam iure recusandae, tempore voluptas reprehenderit? Rem omnis quas deleniti sequi 
             consectetur accusantium, qui nostrum porro id.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio molestias ea numquam ipsam ex repudiandae necessitatibus asperiores voluptatum possimus facere, fugiat ad error repellendus perferendis labore enim, sapiente eius, voluptatibus in ipsa. Deserunt, optio, et, molestiae illo aliquid aperiam itaque aspernatur placeat maiores magni deleniti asperiores repudiandae maxime consectetur obcaecati sint! Deserunt vel a ducimus, in odio nam, id placeat esse pariatur impedit ab facere, facilis voluptates aliquam iure! Suscipit velit amet nostrum nulla, eligendi ullam perferendis sequi numquam provident, modi illum sint deserunt omnis sunt molestias doloribus nisi in iste? Ipsam iusto suscipit eaque neque quidem rem at, quasi ipsa in dignissimos ducimus autem quos magni aliquid facilis sit maxime! Placeat id, dolor quos libero sunt ex veritatis enim maiores deserunt laborum sequi repellat numquam nihil ut doloremque doloribus odio iure dolorem tenetur officiis? Rem reprehenderit architecto suscipit maiores autem. Eveniet aspernatur eum molestias, deserunt architecto fugit cum distinctio expedita. Et est nemo necessitatibus optio eos laborum labore reiciendis incidunt. Excepturi cupiditate non quod perferendis veritatis. Molestias dicta in quo consectetur odit ipsa dolorem aperiam fuga reprehenderit voluptatibus facere, ullam tenetur accusamus libero nisi odio exercitationem harum possimus hic officiis vitae ex veniam. 
+                Quibusdam corrupti quam veniam nobis consequatur.</p>
     </main>
     <style>
         body {
+            /*
             height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center top;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+            */
+
+            /*Shorthand-background
+            color> iamge> position> repeat> [size]*/
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat  fixed;
+            background-size:  cover;
+
+
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: solid 1px darkblue;
