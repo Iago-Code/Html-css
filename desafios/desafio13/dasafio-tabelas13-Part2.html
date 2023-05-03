@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas desafio Part 2</title>
+</head>
+<body>
+    <header>
+    <h1>Desafio Tabelas Prt 2</h1>
+    </header>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: black;
+            font-size: 1em;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+}
+    h1 {
+color: white;
+text-align: center;
+        }
+        table {
+            
+            padding: 10px;
+            border: solid black 1px;
+    border-collapse: collapse;
+    width: 400px;
+        }
+        td {
+    border: solid black 1px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bolder; 
+        }
+        
+td:hover {
+    background-color: brown; 
+}
+        
+    </style>
+    <table>
+        <!--Primeira Coluna-->
+<tr>
+       <td colspan="4">A</td> 
+    <td rowspan="4">B</td>
+</tr>
+<!--Segunda Coluna-->
+<tr>
+    <td rowspan="4">C</td>
+    <td>D</td>
+    <td>E</td>
+    <td>F</td>
+</tr>
+<!--Terceira Coluna-->
+<tr>
+    <td>G</td>
+    <td>H</td>
+    <td>I</td>
+</tr>
+<!--Quarta Coluna-->
+<tr>
+    <td>J</td>
+    <td>L</td>
+    <td>M</td>
+</tr>
+<!--Quinta Coluna-->
+<tr>
+    <td colspan="4">N</td>
+    </tr>        
+
+    </table>
+</body>
+</html>
