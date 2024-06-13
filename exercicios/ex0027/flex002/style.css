@@ -1,6 +1,5 @@
 div.conteiner {
     display: flex;
-    flex-direction: column;
     background-color: lightseagreen;
 }
 
@@ -8,6 +7,5 @@ div.item {
     background-color: blueviolet;
     border: 1px solid black;
     text-align: center;
-    padding: 10px;
-
+    flex: auto;
 }
