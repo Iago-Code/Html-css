@@ -1,13 +1,13 @@
 div.conteiner {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    background-color: rgb(25, 94, 90);
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    background-color: rgb(79, 228, 220);
 }
 
 div.item {
     background-color: rgb(68, 30, 104);
-    border: 1px solid black;
+    border: 2px solid black;
     text-align: center;
     padding: 10px;
 
