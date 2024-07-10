@@ -1,0 +1,14 @@
+div.conteiner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: rgb(25, 94, 90);
+}
+
+div.item {
+    background-color: rgb(68, 30, 104);
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+
+}
