@@ -1,8 +1,8 @@
 div.conteiner {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: flex-start;
-    background-color: rgb(79, 228, 220);
+    justify-content: flex-end;
+    background-color: rgb(52, 82, 80);
 }
 
 div.item {
