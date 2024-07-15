@@ -1,14 +1,30 @@
-div.conteiner {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-end;
-    background-color: rgb(52, 82, 80);
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+body {
+
+    background-color: chocolate;
+
 }
 
-div.item {
-    background-color: rgb(68, 30, 104);
-    border: 2px solid black;
-    text-align: center;
-    padding: 10px;
+main {
+    background-color: greenyellow;
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+section {
+    background-color:navy;
+    height: 200px;
+    width: 200px;
 
 }
