@@ -1,0 +1,47 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+.container {
+    background-color: lightsalmon;
+    display: flex;
+    flex-flow: row nowrap;
+    
+
+    
+}
+
+.item {
+    background-color: lightskyblue;
+    border: 1px solid black;
+    text-align: center;
+    flex-basis: auto;
+    padding: 20px;
+}
+
+#i1 {
+
+}
+
+#i2 {
+
+}
+
+#i3 {
+    
+
+}
+
+#i4 {
+
+}
+
+#i5 {
+}
+
+#i6 {
+
+}
