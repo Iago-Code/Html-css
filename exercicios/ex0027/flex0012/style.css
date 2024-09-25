@@ -1,0 +1,68 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+
+}
+
+
+.container {
+    background-color: rgb(39, 13, 3);
+    display: flex;
+    flex-flow:row nowrap;
+
+        
+    
+}
+
+.item {
+    background-color: lightskyblue;
+    border: 1px solid black;
+    text-align: center;
+    flex-basis: 250px;
+ 
+}
+
+
+#texto {
+    padding: 10px;
+    border: solid 1px;
+    text-align: center;
+    color: cadetblue;
+}
+    
+ 
+
+#cxA {
+/*flex-basis: 150px;
+flex-grow: 0;
+flex-shrink: 1;*/
+
+flex: 1 0 200px;
+}
+
+#cxB {
+flex-basis: 150;
+flex-grow: 1;
+flex-shrink: 1;
+
+}
+
+#cxC {
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 8;
+
+}
+
+#cxD {
+
+}
+
+#cxE {
+}
+
+#cxF {
+
+}
