@@ -9,6 +9,7 @@
     background-color: lightsalmon;
     display: flex;
     flex-flow: row nowrap;
+    justify-content: center;
     
 
     
@@ -17,12 +18,16 @@
 .item {
     background-color: lightskyblue;
     border: 1px solid black;
+    border-radius: 19px;
     text-align: center;
     flex-basis: auto;
     padding: 20px;
 }
 
 #i1 {
+
+
+
 
 }
 
