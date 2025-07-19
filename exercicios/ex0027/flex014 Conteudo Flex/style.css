@@ -27,3 +27,37 @@ section.flex-content {
     padding: 20px;
     background-color: rgb(143, 198, 247);
 }
+
+article.flex-content { 
+    
+    padding: 20px;
+    background-color: rgb(156, 156, 167);
+    display: flex;
+    flex-flow: column nowrap;
+} 
+
+section > article {
+    border: 3px dashed green;
+}
+
+article.text-media {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+article.media-text {
+    display: flex;
+    flex-flow: row wrap-reverse;
+}
+
+article > div.text {
+    flex:  1 1 500px;
+    border: 3px solid blue;
+}
+
+article > div.media {
+    flex: 1 0 500px;
+    border:3px solid blueviolet;
+
+
+}
